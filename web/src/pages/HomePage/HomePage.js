@@ -14,6 +14,10 @@ const HomePage = () => {
         My default route is named <code>home</code>, link to me with `
         <Link to={routes.home()}>Home</Link>`
       </p>
+      <p>
+        My test route is named <code>test</code>, link to me is
+        <Link to={routes.test()}>Test</Link>
+      </p>
     </>
   )
 }
